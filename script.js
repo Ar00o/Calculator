@@ -46,7 +46,7 @@ const calculate = (operation) => {
             resultValue = num1 * num2;
             break;
         case 'division':
-            if (num2 === 0) {
+            if (num2 == 0) {
                 result.textContent = "Division by zero is impossible";
                 return;
             }
