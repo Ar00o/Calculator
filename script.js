@@ -82,5 +82,6 @@ reset.addEventListener('click', () => {
     input1.value = ''
     input2.value = ''
 })
+console.log(parseFloat(input1.value));
 
 
