@@ -1,0 +1,60 @@
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: .4rem solid black;
+    padding: 1rem;
+    background-color: orange;
+
+}
+.container .header{
+    text-align: center;
+}
+.container .header h1{
+   margin: 2rem;
+   font-size: 2.5rem;
+    
+}
+.container .header .inner form{
+    display: flex;
+    margin-left: 5px
+}
+.container .header .inner form input{
+    padding: .1rem;
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+}
+.container .header .inner .text{
+    background-color: white;
+    margin: 2rem;
+    border-radius: .5rem;
+}
+.container .header .inner .text h4{
+    padding-top: .5rem;
+}
+.container .header .inner .text p{
+   font-size: 1.3rem;
+   padding-bottom: .5rem;
+}
+.container .header .inner .buttons{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.container .header .inner .buttons button{
+    margin-left: .5rem;
+    width: 50px;
+    height: 25px;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.container .header .inner #reset{
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
